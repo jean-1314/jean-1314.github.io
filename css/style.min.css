@@ -1188,7 +1188,8 @@ img {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    width: 100%; }
   .features__why,
   .features__what {
     width: 45%;
@@ -1204,6 +1205,9 @@ img {
     align-items: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start; }
+  .features__why-list li,
+  .features__what-list li {
+    width: 100%; }
   .language-switcher {
     top: 45px;
     left: 10%; }
@@ -1362,6 +1366,8 @@ img {
   .features__wrapper {
     min-width: 980px;
     padding: 0 2%; }
+  .features__wrapper {
+    width: 100%; }
   .language-switcher {
     left: 90%;
     top: 74%; }
