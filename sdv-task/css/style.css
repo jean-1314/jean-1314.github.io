@@ -694,6 +694,7 @@ img {
   background-position: -237px -5px;
 }
 .hints-top__item-tablink--active {
+  padding-right: 15px;
   border-left: 1px solid #efefef;
   border-right: 1px solid #efefef;
   border-top-right-radius: 8px;
@@ -705,6 +706,9 @@ img {
 }
 .hints-top__item-tablink--active::after {
   display: none;
+}
+.hints-top__item-tablink--active:last-child {
+  padding-right: 20px;
 }
 .hints-top__item-tabcontent {
   display: none;
