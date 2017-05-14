@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTT task</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="page-header">
+
+
+
+    <nav class="page-header__navbar page-header__navbar--closed page-header__navbar--nojs">
+      <button class="page-header__navbar-toggle">Открыть меню</button>
+
+      <div class="page-header__wrapper">
+
+        <ul class="page-header__navbar-right">
+          <li class="page-header__navbar-right-item">
+            <a class="page-header__navbar-right-link page-header__navbar-right-link--order" href="#">Мой заказ</a>
+          </li>
+
+          <li class="page-header__navbar-right-item">
+            <a class="page-header__navbar-right-link page-header__navbar-right-link--login" href="">Войти</a>
+          </li>
+        </ul>
+
+        <div class="page-header__logo">
+          <a class="page-header__logo-link" href="https://www.onetwotrip.com" target="_blank">
+            <img class="page-header__logo-img" src="img/ott-logo.png" alt="OTT logo" width="48" height="48">
+          </a>
+        </div>
+
+        <ul class="page-header__navbar-list">
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Авиабилеты</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Отели</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Поезда</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Перелет &#43; отель</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Авто</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Туры</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#">Бонусы</a>
+          </li>
+
+          <li class="page-header__navbar-item">
+            <a class="page-header__navbar-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="cashback">
+      <div class="cashback__wrapper">
+        <h1 class="cashback__header">Заголовок</h1>
+
+        <div class="cashback__benefit">
+          <div class="cashback__benefit-wrapper">
+            <p class="cashback__benefit-description cashback__benefit-description--tooltip">Кэшбэк 1% со всех покупок и до 10% с покупок в&nbsp;«любимых местах»</p>
+            <div class="cashback__benefit-tooltip">
+              <div class="cashback__benefit-tooltip-wrapper">
+                <p class="cashback__benefit-tooltip-text">Вы можете выбрать 3 «любимых» места в мобильном приложении</p>
+                <div class="cashback__benefit-tooltip-triangle"></div>
+                <div class="cashback__benefit-tooltip-patch"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cashback__benefit">
+          <p class="cashback__benefit-description">А также баллы при покупке в&nbsp;приложении</p>
+        </div>
+
+        <div class="cashback__option">
+          <a class="cashback__option-toggle cashback__option-toggle--app cashback__option-toggle--active" href="#">В приложении</a><!--
+          --><a class="cashback__option-toggle cashback__option-toggle--site cashback__option-toggle--inactive" href="#">На сайте</a>
+        </div>
+
+        <div class="cashback__items">
+
+          <div class="cashback__item">
+            <span id="air-app" class="cashback__item-percent cashback__item-percent--app">4%</span>
+            <span id="air-site" class="cashback__item-percent cashback__item-percent--site">5%</span>
+            <span class="cashback__item-description">на авиабилеты</span>
+          </div>
+
+          <div class="cashback__item">
+            <span id="rail-app" class="cashback__item-percent cashback__item-percent--app">5%</span>
+            <span id="rail-site" class="cashback__item-percent cashback__item-percent--site">7%</span>
+            <span class="cashback__item-description">на  ж/д билеты</span>
+          </div>
+
+          <div class="cashback__item">
+            <span id="hotel-app" class="cashback__item-percent cashback__item-percent--app"><span class="cashback__item-prep">до</span> 8%</span>
+            <span id="hotel-site" class="cashback__item-percent cashback__item-percent--site"><span class="cashback__item-prep">до</span> 9%</span>
+            <span class="cashback__item-description">на отели</span>
+          </div>
+        </div>
+
+        <a class="btn cashback__order-btn" href="#">Заказать</a>
+
+        <p class="cashback__info">Кэшбэк и баллы начисляются в виде трипкоинов, которыми можно оплачивать путешествия (1&nbsp;трипкоин&nbsp;=&nbsp;1&nbsp;рубль)</p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features__wrapper">
+        <h2 class="features__header">Заголовок 2</h2>
+        <div class="features__list">
+
+          <div class="features__item">
+            <strong class="features__item-header">Пункт 1</strong>
+            <span class="features__description">Описание 1</span>
+          </div>
+
+          <div class="features__item">
+            <strong class="features__item-header">Пункт 2</strong>
+            <span class="features__description">Описание 2</span>
+          </div>
+
+          <div class="features__item">
+            <strong class="features__item-header">Пункт 3</strong>
+            <span class="features__description">Описание 3</span>
+          </div>
+
+          <div class="features__item features__item-tooltip">
+            <strong class="features__item-header">Пункт 4</strong>
+            <span class="features__description">Описание 4</span>
+            <div class="features__tooltip">
+              <div class="features__tooltip-wrapper">
+                <p class="features__tooltip-text">Доставка осуществляется по&nbsp;Москве, Санкт‑Петербургу, Екатеринбургу, Новосибирску, Казани, Нижнему Новгороду, Тюмени, Краснодару, Челябинску, Красноярску, Ростову-на‑Дону, Самаре, Тольятти, Перми, Омску, Уфе, Саратову и Иркутску</p>
+                <div class="features__tooltip-triangle"></div>
+                <div class="features__tooltip-patch"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="features__item">
+            <strong class="features__item-header">Пункт 5</strong>
+            <span class="features__description">Описание 5</span>
+          </div>
+
+          <div class="features__item">
+            <strong class="features__item-header">Пункт 6</strong>
+            <span class="features__description">Описание&nbsp;6</span>
+          </div>
+        </div>
+
+        <a class="btn features__more-btn" href="#">Подробнее</a>
+      </div>
+    </section>
+  </main>
+  <script type="text/javascript" src="js/classList.min.js"></script>
+  <script type="text/javascript" src="js/script.min.js"></script>
+</body>
+</html>
