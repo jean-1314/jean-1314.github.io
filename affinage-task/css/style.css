@@ -546,7 +546,12 @@ img {
   line-height: 19.6px;
   font-weight: 300;
   color: #ee2d24;
+  text-decoration: none;
   letter-spacing: 0.2px;
+}
+.aside-news__urgent-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .aside-news__agenda {
   position: relative;
@@ -581,7 +586,12 @@ img {
   line-height: 18.2px;
   font-weight: 500;
   color: #1f1f1f;
+  text-decoration: none;
   letter-spacing: 0.2px;
+}
+.aside-news__agenda-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .aside-news__switcher {
   position: relative;
@@ -779,6 +789,10 @@ img {
   background-color: gray;
   background-image: url("../img/video.jpg");
   background-repeat: no-repeat;
+  cursor: pointer;
+}
+.main__video-show:hover {
+  opacity: 0.7;
 }
 .main__video-show::before {
   content: "";
@@ -816,6 +830,10 @@ img {
   line-height: 19.2px;
   color: #231f20;
   letter-spacing: 0.7px;
+}
+.main__video-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .main__news {
   width: 100%;
@@ -883,6 +901,9 @@ img {
   color: #221f1f;
   text-decoration: none;
 }
+.main__news-title:hover {
+  text-decoration: underline;
+}
 .main__news-date {
   display: block;
   padding-left: 13px;
@@ -914,6 +935,9 @@ img {
   text-decoration: none;
   color: #231f20;
   letter-spacing: 0.9px;
+}
+.main__news-btn:hover {
+  text-decoration: underline;
 }
 .main__news-btn:first-child {
   margin-right: 20px;
@@ -1042,6 +1066,9 @@ img {
   color: #231f20;
   letter-spacing: 0.7px;
 }
+.page-footer__contact-btn:hover {
+  text-decoration: underline;
+}
 .page-footer__stock {
   margin-left: 30px;
 }
@@ -1158,6 +1185,9 @@ img {
   font-weight: 300;
   color: #221f1f;
 }
+.page-footer__info-link:hover {
+  text-decoration: underline;
+}
 .page-footer__info-error {
   display: block;
   margin: 0;
@@ -1269,6 +1299,10 @@ img {
   color: #221f1f;
   text-decoration: none;
 }
+.upper-nav__link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
 .upper-nav__number {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1301,6 +1335,7 @@ img {
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   z-index: 9;
+  cursor: pointer;
 }
 .upper-nav__mail::after {
   content: "12";
@@ -1339,6 +1374,10 @@ img {
   line-height: 16.8px;
   color: #231f20;
   text-decoration: none;
+}
+.upper-nav__login:hover {
+  color: #000000;
+  text-decoration: underline;
 }
 .upper-nav__login::before {
   content: "";
