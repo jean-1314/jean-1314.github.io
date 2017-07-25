@@ -5,21 +5,9 @@ var ruBlock = document.querySelector('.language-switcher__lang-link--ru');
 var navMain = document.querySelector('.main-nav');
 var navToggle = document.querySelector('.main-nav__toggle');
 
-// var resumeToggle = document.querySelector('.resume__button');
-// var resumeIconUp = document.querySelector('.resume__button-icon--up');
-
-var aboutMeBtn = document.querySelector('.about-me__btn');
-var aboutMeBtnMore = document.querySelector('.about-me__btn--more');
-var aboutMeBtnLess = document.querySelector('.about-me__btn--less');
-var aboutMeToggle = document.querySelector('.about-me__toggle');
-var skillset = document.querySelector('.skillset');
-
 // No js default values
 
 navMain.classList.remove('main-nav--nojs');
-// resumeToggle.classList.remove('resume__button--nojs');
-aboutMeBtn.classList.remove('about-me__btn--nojs');
-aboutMeBtnLess.style.display = 'none';
 
 // Language-switcher
 enBlock.addEventListener('mouseenter', function(event) {
@@ -57,51 +45,6 @@ navToggle.addEventListener('click', function() {
   }
 });
 
-// Resume button toggle
-
-// document.getElementById('button-up').style.display = 'none';
-
-// resumeToggle.addEventListener('click', function() {
-
-//   if (resumeToggle.classList.contains('resume__button--on')) {
-//     resumeToggle.classList.remove('resume__button--on');
-//     resumeToggle.classList.add('resume__button--off');
-//     document.getElementById('button-up').style.display = 'none';
-//     document.getElementById('button-down').style.display = 'block';
-//   }
-
-//   else {
-//     resumeToggle.classList.add('resume__button--on');
-//     resumeToggle.classList.remove('resume__button--off');
-//     document.getElementById('button-up').style.display = 'block';
-//     document.getElementById('button-down').style.display = 'none';
-//   }
-// });
-
-// About Me text toggle on 1440+
-
-aboutMeBtnMore.addEventListener('click', function() {
-
-  aboutMeToggle.classList.remove('about-me__toggle--off');
-  aboutMeToggle.classList.add('about-me__toggle--on');
-  skillset.classList.remove('skillset--visible');
-  skillset.classList.add('skillset--hidden');
-  aboutMeBtnMore.style.display = 'none';
-  aboutMeBtnLess.style.display = 'inline';
-
-});
-
-aboutMeBtnLess.addEventListener('click', function() {
-
-  aboutMeToggle.classList.remove('about-me__toggle--on');
-  aboutMeToggle.classList.add('about-me__toggle--off');
-  skillset.classList.add('skillset--visible');
-  skillset.classList.remove('skillset--hidden');
-  aboutMeBtnMore.style.display = 'inline';
-  aboutMeBtnLess.style.display = 'none';
-
-});
-
 // Anchor tag scroll, credits to http://markrabey.com
 
 window.scrollTo = (function () {
@@ -133,18 +76,6 @@ window.scrollTo = (function () {
     return timer;
   };
 }());
-
-var welcomeLink = document.querySelector('[href="#welcome"]');
-welcomeLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    scrollTo(document.getElementById('welcome').offsetTop);
-}, false);
-
-var profileLink = document.querySelector('[href="#profile"]');
-profileLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    scrollTo(document.getElementById('profile').offsetTop);
-}, false);
 
 var resumeLink = document.querySelector('[href="#resume"]');
 resumeLink.addEventListener('click', function(event) {
