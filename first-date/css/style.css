@@ -57,6 +57,7 @@ p, ul, li, h1, h2, h3, table, tr, td {
   margin: 0 auto;
   padding: 50px;
   padding-bottom: 0;
+  overflow: hidden;
 }
 
 .header {
