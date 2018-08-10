@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Ossem Rough";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ossem-rough.woff2') format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --font: #231f20;
+  --green: #a4b995;
+  --brown: #bc9451;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: auto;
+  margin: 0 auto;
+  font-size: 16px;
+  color: var(--font);
+  font-family: "Ossem Rough", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p, ul, li, h1, h2, h3, table, tr, td {
+  margin: 0;
+  padding: 0;
+}
+
+#vue-app {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 50px;
+  padding-bottom: 0;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.header-svg {
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.header-date {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-date strong {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.main-right {
+  flex: 0 0 40%;
+  animation-name: rightToLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.main-left {
+  flex: 0 0 45%;
+  animation-name: leftToRight;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.main-text {
+  font-size: 40px;
+}
+
+.main-text strong {
+  display: block;
+  font-size: 90px;
+  color: var(--green);
+  font-weight: normal;
+}
+
+.main-img {
+  display: block;
+  height: 380px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 96px;
+  color: var(--brown);
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.footer-img {
+  transform: translateY(-100px);
+}
+
+@keyframes leftToRight {
+  from {
+    transform: translateX(-800px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(800px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

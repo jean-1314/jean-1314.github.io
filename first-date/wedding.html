@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Первое свидание</title>
+  <link rel="stylesheet" href="css/normalize.css"></link>
+  <link rel="stylesheet" href="css/style.css"></style>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="vue-app">
+    <div class="wrapper">
+      <header class="header">
+        <p class="header-date">Суббота <strong>11</strong> августа</p>
+        <img class="header-svg" src="img/header.svg" alt="Текст на изображении: Иван Савитский и Ольга Машарова">
+      </header>
+      <main class="main">
+        <div class="main-left">
+          <p class="main-text">Мы начали встречаться <strong>{{ getDate }}</strong></p>
+          <img class="main-img" src="img/us.jpg" alt="Ваня и Оля">
+        </div>
+        <div class="main-right">
+          <p class="main-text">Мы посмотрели фильм <strong>«{{ getMovieName }}»</strong></p>
+          <img class="main-img" src="img/cal.jpg" alt="Обложка фильма Тут вам не Калифорния">
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="footer-text">Это было в Центральном доме художника</p>
+        <img src="img/greenery.png" alt="Цветы" class="footer-img">
+      </footer>
+    </div>
+  </div>
+  <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
