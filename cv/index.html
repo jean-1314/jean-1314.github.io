@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="css/sanitize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Ivan Savitsky | Front-end developer</title>
+</head>
+<body>
+<h1 class="hidden">Ivan Savitsky's personal CV web page</h1>
+<div class="page-wrapper container">
+  <header class="main-header">
+    <section class="main-header__info">
+      <h2 class="hidden">Main info</h2>
+      <p class="main-header__info-title">Ivan Savitsky</p>
+      <p class="main-header__info-subtitle">Front-end Developer</p>
+    </section>
+    <section class="main-header__contacts">
+      <h2 class="hidden">Contacts</h2>
+      <div class="main-header__contacts-external">
+        <a href="https://github.com/jean-1314" target="_blank"
+           class="main-header__contacts-external-link main-header__contacts-external-link--github tabbable"
+           rel="noopener noreferrer">
+          <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path
+              d="M50,2.69A48.52,48.52,0,0,0,34.65,97.23c2.46.44,3.35-1.07,3.35-2.34s-.06-5-.06-9c0,0-13.51,2.9-16.36-5.75,0,0-2.21-5.62-5.37-7.07,0,0-4.42-3,.32-3a10.17,10.17,0,0,1,7.45,5c4.23,7.45,11.3,5.3,14.08,4a10.49,10.49,0,0,1,3.09-6.5c-10.8-1.2-22.1-5.37-22.1-23.93a18.67,18.67,0,0,1,5-13c-.51-1.26-2.15-6.19.44-12.88,4.1-1.26,13.39,5,13.39,5a45.59,45.59,0,0,1,24.25,0s9.28-6.25,13.32-5c2.65,6.69,1,11.62.51,12.88a18.67,18.67,0,0,1,5,13c0,18.63-11.37,22.73-22.17,23.93,1.77,1.52,3.28,4.42,3.28,9V94.89c0,1.26.82,2.78,3.28,2.34A48.52,48.52,0,0,0,50,2.69Z"/>
+          </svg>
+          <span class="hidden">GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/savitsky/" target="_blank"
+           class="main-header__contacts-external-link main-header__contacts-external-link--linkedin tabbable"
+           rel="noopener noreferrer">
+          <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path
+              d="M13.31,24.54h0c-7,0-11.61-5-11.61-11.27C1.7,6.8,6.27,2,13.31,2S24.75,6.8,24.93,13.27c.18,6.28-4.4,11.27-11.61,11.27ZM23.69,98.82H2.93V33.41H23.69V98.82Zm74.61,0H77.54V63.9c0-8.87-3-14.78-10.56-14.78-5.63,0-9.15,4.06-10.56,7.94a16.38,16.38,0,0,0-.7,5.36V99H35.13c.18-59.31,0-65.59,0-65.59H55.89v9.42h-.18c2.64-4.43,7.57-11.09,18.83-11.09,13.73,0,23.76,9.42,23.76,29.38V98.82Z"/>
+          </svg>
+          <span class="hidden">LinkedIn</span>
+        </a>
+        <a href="https://t.me/i_savitsky" target="_blank"
+           class="main-header__contacts-external-link main-header__contacts-external-link--telegram tabbable"
+           rel="noopener noreferrer">
+          <svg width="40" height="40" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5.299,144.645l69.126,25.8l26.756,86.047c1.712,5.511,8.451,7.548,12.924,3.891l38.532-31.412
+                c4.039-3.291,9.792-3.455,14.013-0.391l69.498,50.457c4.785,3.478,11.564,0.856,12.764-4.926L299.823,29.22
+                c1.31-6.316-4.896-11.585-10.91-9.259L5.218,129.402C-1.783,132.102-1.722,142.014,5.299,144.645z M96.869,156.711l135.098-83.207
+                c2.428-1.491,4.926,1.792,2.841,3.726L123.313,180.87c-3.919,3.648-6.447,8.53-7.163,13.829l-3.798,28.146
+                c-0.503,3.758-5.782,4.131-6.819,0.494l-14.607-51.325C89.253,166.16,91.691,159.907,96.869,156.711z"/>
+          </svg>
+          <span class="hidden">Telegram</span>
+        </a>
+      </div>
+      <p class="main-header__contacts-email">E-mail:&nbsp;
+        <a href="#" class="main-header__contacts-email-link cryptedmail tabbable"
+           data-name="ivan"
+           data-domain="savitsky"
+           data-tld="biz"
+           aria-label="Encrypted e-mail address. Please follow the link to open your e-mail client or click the next button to copy the address to clipboard"
+           onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
+        <button type="button" class="main-header__contacts-email-button copy-btn tabbable">Copy to clipboard
+          <svg width="20" height="20" viewBox="0 0 210.107 210.107" aria-hidden="true">
+            <path d="M168.506,0H80.235C67.413,0,56.981,10.432,56.981,23.254v2.854h-15.38
+                c-12.822,0-23.254,10.432-23.254,23.254v137.492c0,12.822,10.432,23.254,23.254,23.254h88.271
+                c12.822,0,23.253-10.432,23.253-23.254V184h15.38c12.822,0,23.254-10.432,23.254-23.254V23.254C191.76,10.432,181.328,0,168.506,0z
+                 M138.126,186.854c0,4.551-3.703,8.254-8.253,8.254H41.601c-4.551,0-8.254-3.703-8.254-8.254V49.361
+                c0-4.551,3.703-8.254,8.254-8.254h88.271c4.551,0,8.253,3.703,8.253,8.254V186.854z M176.76,160.746
+                c0,4.551-3.703,8.254-8.254,8.254h-15.38V49.361c0-12.822-10.432-23.254-23.253-23.254H71.981v-2.854
+                c0-4.551,3.703-8.254,8.254-8.254h88.271c4.551,0,8.254,3.703,8.254,8.254V160.746z"/>
+          </svg>
+        </button>
+      </p>
+    </section>
+  </header>
+  <main class="main-content">
+    <section class="about info">
+      <h2 class="about__title section-title">About Me</h2>
+      <div class="about__wrapper">
+        <div class="about__image-wrapper">
+          <picture>
+            <source srcset="img/profile-pic@1x.avif, img/profile-pic@2x.avif 2x" type="image/avif">
+            <source srcset="img/profile-pic@1x.webp, img/profile-pic@2x.webp 2x" type="image/webp">
+            <img src="img/profile-pic@1x.jpg" srcset="img/profile-pic@1x.jpg, img/profile-pic@2x.jpg 2x" alt="Ivan Savitsky" class="about__image"
+                 width="200" height="200">
+          </picture>
+        </div>
+        <div class="about__info">
+          <div class="text">
+            <p class="about__info-text">Hi, my name is&nbsp;Ivan Savitsky and&nbsp;I develop web interfaces. I&nbsp;am&nbsp;based in&nbsp;Moscow,
+              Russia, and&nbsp;currently working for&nbsp;Softlink on&nbsp;the&nbsp;Automated Investment Advisor platform, Robo24.</p>
+            <p class="about__info-text">I enjoy creating clean, performant, and&nbsp;accessible web interfaces with
+              empathy to&nbsp;the&nbsp;end user as&nbsp;well&nbsp;as caring attitude towards business needs. I am&nbsp;proficient in&nbsp;web
+              fundamentals —
+              <mark>HTML</mark>,
+              <mark>CSS</mark>, and
+              <mark>JavaScript</mark>&nbsp;— and&nbsp;prefer building interfaces with&nbsp;<mark>Vue.js</mark> and&nbsp;its ecosystem tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience info">
+      <h2 class="info__title section-title">Experience</h2>
+      <article class="info__details">
+        <div class="info__details-title-container brief">
+          <h3 class="info__details-title brief__title">Softlink</h3>
+          <p class="info__details-subtitle brief__subtitle">Front-end Developer</p>
+          <p class="info__details-dates brief__info">November 2019 – Present</p>
+          <a href="https://softlink.capital/" target="_blank" rel="noopener noreferrer" class="info__details-link brief__link tabbable">softlink.capital</a>
+        </div>
+        <div class="info__description-container text">
+          <p>Softlink has&nbsp;vast experience in&nbsp;producing professional investment software, such as&nbsp;trading platforms,
+            financial robots, and&nbsp;automated investment services.</p>
+
+          <p>My primary task at&nbsp;Softlink is&nbsp;to&nbsp;develop and&nbsp;support the&nbsp;administrative panel interface of&nbsp;its&nbsp;leading
+            automated investment advisor platform. The multi-language admin panel is&nbsp;built with
+            <mark>Vue.js</mark>, <mark>Vue&nbsp;Router</mark>, <mark>Vuex</mark>, and <mark>Vuetify</mark>.
+            I am&nbsp;working as&nbsp;a&nbsp;solo front-end developer in&nbsp;a&nbsp;team of 3 people and&nbsp;I take key front-end
+            architecture decisions and&nbsp;carefully select tools to&nbsp;build a&nbsp;convenient and&nbsp;performant web interface.
+          </p>
+
+          <p>Additionally, I maintain the&nbsp;client interface app built with
+            <mark>React</mark>, <mark>Redux</mark>, and&nbsp;<mark>TypeScript</mark>. Working on&nbsp;this project
+            allows me to&nbsp;switch to&nbsp;a&nbsp;different programming solution and&nbsp;look at&nbsp;my&nbsp;own code from&nbsp;a&nbsp;different angle.
+          </p>
+
+          <p>Finally, I am&nbsp;currently developing a&nbsp;new version of&nbsp;the&nbsp;Softlink corporate website. It uses
+            <mark>Strapi</mark> as a&nbsp;<mark>Node.js</mark> headless CMS, and&nbsp;<mark>Nuxt.js</mark>
+            as&nbsp;a&nbsp;static pages generator. This setup blends flexible developer
+            experience, convenient content management, and&nbsp;smooth end user experience.
+          </p>
+        </div>
+      </article>
+      <article class="info__details">
+        <div class="info__details-title-container brief">
+          <h3 class="info__details-title brief__title">Digital Economy League</h3>
+          <p class="info__details-subtitle brief__subtitle">Front-end Developer</p>
+          <p class="info__details-dates brief__info">June 2017 – November 2019</p>
+          <a href="https://www.digitalleague.ru/" target="_blank" rel="noopener noreferrer" class="info__details-link brief__link tabbable">digitalleague.ru</a>
+        </div>
+        <div class="info__description-container text">
+          <p> Digital Economy League, a&nbsp;major company on&nbsp;the&nbsp;system integration market,
+            encapsulates 10+&nbsp;years of&nbsp;experience in&nbsp;creating and&nbsp;implementing large high-load
+            information systems in&nbsp;Russia and&nbsp;abroad. The company offers solutions to&nbsp;the&nbsp;commercial
+            and&nbsp;state companies as&nbsp;well&nbsp;as&nbsp;to&nbsp;the&nbsp;public sector.
+          </p>
+          <p>My primary duty was to&nbsp;develop and&nbsp;maintain the&nbsp;front-end part of&nbsp;the&nbsp;corporate Intranet
+            using
+            <mark>Vue.js</mark>, <mark>Vue Router</mark>, <mark>Vuex</mark>, and <mark>Vue Test Utils</mark>. Since
+            early 2018 we have&nbsp;successfully launched the following Intranet services:
+          </p>
+          <ul>
+            <li>Corporate News Feed (with a custom comment-and-like system);</li>
+            <li>Custom administrator panel for content managers;</li>
+            <li>Find-your-colleagues interface;</li>
+            <li>Project database for the presales (+ admin panel);</li>
+            <li>Custom Photo Gallery;</li>
+            <li>Custom Forum;</li>
+            <li>Custom merchandise retailer module;</li>
+            <li>Multiple HR and marketing services.</li>
+          </ul>
+          <p>Other duties included:</p>
+          <ul>
+            <li>Building corporate websites for&nbsp;the&nbsp;Digital Economy League members (now 10+ websites, including
+              <a href="https://www.digitalleague.ru/" target="_blank" rel="noopener noreferrer" class="tabbable">digitalleague.ru</a>);
+            </li>
+            <li>Building in-house event sites and&nbsp;landing pages;</li>
+            <li>Building corporate HTML e-mails;</li>
+            <li>Updating and&nbsp;maintaining legacy corporate projects;</li>
+            <li>Mentoring and&nbsp;code-reviewing less experienced developers.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="info__details">
+        <div class="info__details-title-container">
+          <h3 class="info__details-title brief__title">Non-tech positions</h3>
+        </div>
+        <div class="info__description-container text">
+          <p class="info__description">Info available upon request</p>
+        </div>
+      </article>
+    </section>
+    <section class="skills info">
+      <h2 class="info__title section-title">Hard Skills</h2>
+      <article class="info__details">
+        <div class="info__details-title-container brief">
+          <h3 class="info__details-title brief__title">Proficient in</h3>
+        </div>
+        <div class="info__description-container text">
+          <ul>
+            <li>
+              Web fundamentals: <mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark>;
+            </li>
+            <li>
+              Creating contemporary frontend of&nbsp;web sites/applications by&nbsp;developing performant and&nbsp;accessible interfaces;
+            </li>
+            <li>
+              <mark>Vue.js</mark> and&nbsp;its&nbsp;ecosystem.
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="info__details">
+        <div class="info__details-title-container brief">
+          <h3 class="info__details-title brief__title">Have experience in:</h3>
+        </div>
+        <div class="info__description-container text">
+          <ul>
+            <li>
+              Unit testing with <mark>Jest</mark>;
+            </li>
+            <li>
+              <mark>React.js;</mark>
+            </li>
+            <li>
+              <mark>TypeScript</mark>;
+            </li>
+            <li>
+              Using server side rendering frameworks (<mark>Nuxt.js</mark>, <mark>Next.js</mark>);
+            </li>
+            <li>
+              Developing simple API services with <mark>Node.js</mark>;
+            </li>
+            <li>
+              Configuring <mark>webpack</mark>.
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="info__details">
+        <div class="info__details-title-container brief">
+          <h3 class="info__details-title brief__title">Had a&nbsp;taste&nbsp;of:</h3>
+        </div>
+        <div class="info__description-container text">
+          <ul>
+            <li>
+              <mark>GraphQL</mark>;
+            </li>
+            <li>
+              <mark>Svelte</mark>;
+            </li>
+            <li>
+              <mark>Tailwind.css</mark>;
+            </li>
+            <li>
+              <mark>PWA</mark>;
+            </li>
+            <li>
+              <mark>PHP</mark>.
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="info__details">
+        <div class="info__details-title-container brief">
+          <h3 class="info__details-title brief__title">Would like to expand horizons in:</h3>
+        </div>
+        <div class="info__description-container text">
+          <ul>
+            <li>Data structures and algorithms;</li>
+            <li>Clean, supportable architecture;</li>
+            <li>Types;</li>
+            <li>Web animation;</li>
+            <li>Creating back-end services;</li>
+            <li>End-to-end testing.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section class="certificates info">
+      <h2 class="section-title">Certificates</h2>
+      <div class="cards">
+        <article class="card brief">
+          <h3 class="card__title brief__title">HTML Academy</h3>
+          <p class="card__subtitle brief__subtitle">HTML and CSS Level&nbsp;1</p>
+          <p class="card__info brief__info">2017</p>
+          <a href="https://assets.htmlacademy.ru/certificates/intensive/32/309949.pdf?1536774571" target="_blank" class="card__image-link">
+            <picture>
+              <source srcset="img/certs/cert-css-1.avif, img/certs/cert-css-1.avif 2x" type="image/avif">
+              <source srcset="img/certs/cert-css-1.webp, img/certs/cert-css-1.webp 2x" type="image/webp">
+              <img src="img/certs/cert-css-1.jpg" srcset="img/certs/cert-css-1.jpg, img/certs/cert-css-1@2x.jpg 2x"
+                   alt="HTML Academy HTML and CSS Level 1 Course Completion Certificate" class="card__image"
+                   width="350" height="492">
+            </picture>
+          </a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">HTML Academy</h3>
+          <p class="card__subtitle brief__subtitle">HTML and CSS Level&nbsp;2</p>
+          <p class="card__info brief__info">2017</p>
+          <a href="https://assets.htmlacademy.ru/certificates/intensive/34/309949.pdf?1536774687" target="_blank" class="card__image-link">
+            <picture>
+              <source srcset="img/certs/cert-css-2.avif, img/certs/cert-css-2@2x.avif 2x" type="image/avif">
+              <source srcset="img/certs/cert-css-2.webp, img/certs/cert-css-2@2x.webp 2x" type="image/webp">
+              <img src="img/certs/cert-css-2.jpg" srcset="img/certs/cert-css-2.jpg, img/certs/cert-css-2@2x.jpg 2x"
+                   alt="HTML Academy HTML and CSS Level 2 Course Completion Certificate" class="card__image"
+                   width="350" height="492">
+            </picture>
+          </a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">HTML Academy</h3>
+          <p class="card__subtitle brief__subtitle">JavaScript Level&nbsp;1</p>
+          <p class="card__info brief__info">2017</p>
+          <a href="https://assets.htmlacademy.ru/certificates/intensive/49/309949.pdf?1536774793" target="_blank" class="card__image-link">
+            <picture>
+              <source srcset="img/certs/cert-js-1.avif, img/certs/cert-js-1@2x.avif 2x" type="image/avif">
+              <source srcset="img/certs/cert-js-1.webp, img/certs/cert-js-1@2x.webp 2x" type="image/webp">
+              <img src="img/certs/cert-js-1.jpg" srcset="img/certs/cert-js-1.jpg, img/certs/cert-js-1@2x.jpg 2x"
+                   alt="HTML Academy JavaScript Level 1 Course Completion Certificate" class="card__image"
+                   width="350" height="492">
+            </picture>
+          </a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">HTML Academy</h3>
+          <p class="card__subtitle brief__subtitle">JavaScript Level&nbsp;2</p>
+          <p class="card__info brief__info">2018</p>
+          <a href="https://assets.htmlacademy.ru/certificates/intensive/81/309949.pdf?1536774872" target="_blank" class="card__image-link">
+            <picture>
+              <source srcset="img/certs/cert-js-2.avif, img/certs/cert-js-2@2x.avif 2x" type="image/avif">
+              <source srcset="img/certs/cert-js-2.webp, img/certs/cert-js-2@2x.webp 2x" type="image/webp">
+              <img src="img/certs/cert-js-2.jpg" srcset="img/certs/cert-js-2.jpg, img/certs/cert-js-2@2x.jpg 2x"
+                   alt="HTML Academy JavaScript Level 2 Course Completion Certificate" class="card__image"
+                   width="350" height="492">
+            </picture>
+          </a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">HTML Academy</h3>
+          <p class="card__subtitle brief__subtitle">PHP Level&nbsp;1</p>
+          <p class="card__info brief__info">2019</p>
+          <a href="https://assets.htmlacademy.ru/certificates/intensive/129/309949.pdf?1613216622" target="_blank" class="card__image-link">
+            <picture>
+              <source srcset="img/certs/cert-php-1.avif, img/certs/cert-php-1@2x.avif 2x" type="image/avif">
+              <source srcset="img/certs/cert-php-1.webp, img/certs/cert-php-1@2x.webp 2x" type="image/webp">
+              <img src="img/certs/cert-php-1.jpg" srcset="img/certs/cert-php-1.jpg, img/certs/cert-php-1@2x.jpg 2x"
+                   alt="HTML Academy PHP Level 1 Course Completion Certificate" class="card__image"
+                   width="350" height="492">
+            </picture>
+          </a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">Wes Bos Courses</h3>
+          <p class="card__subtitle brief__subtitle">Advanced React and GraphQL</p>
+          <p class="card__info brief__info">2020</p>
+          <a href="https://advancedreact.com/" target="_blank" class="card__image-link">
+            <picture>
+              <source srcset="img/certs/cert-react.avif, img/certs/cert-react@2x.avif 2x" type="image/avif">
+              <source srcset="img/certs/cert-react.webp, img/certs/cert-react@2x.webp 2x" type="image/webp">
+              <img src="img/certs/cert-react.jpg" srcset="img/certs/cert-react.jpg, img/certs/cert-react@2x.jpg 2x"
+                   alt="Advanced React and GraphQL Course Completion Certificate" class="card__image"
+                   width="350" height="263">
+            </picture>
+          </a>
+        </article>
+      </div>
+    </section>
+    <section class="education info">
+      <h2 class="section-title">Education</h2>
+      <div class="cards">
+        <article class="card brief">
+          <h3 class="card__title brief__title">University of&nbsp;Bayreuth</h3>
+          <p class="card__subtitle brief__subtitle">MA Linguistics</p>
+          <p class="card__info brief__info">2011 - 2012</p>
+          <a href="https://www.uni-bayreuth.de/en/" target="_blank" rel="noopener noreferrer" class="brief__link tabbable">uni-bayreuth.de</a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">Moscow City University</h3>
+          <p class="card__subtitle brief__subtitle">MA Linguistics</p>
+          <p class="card__info brief__info">2010 - 2012</p>
+          <a href="https://en.mgpu.ru/" target="_blank" rel="noopener noreferrer" class="brief__link tabbable">mgpu.ru</a>
+        </article>
+        <article class="card brief">
+          <h3 class="card__title brief__title">Moscow City University</h3>
+          <p class="card__subtitle brief__subtitle">BA Linguistics</p>
+          <p class="card__info brief__info">2006 - 2010</p>
+          <a href="https://en.mgpu.ru/" target="_blank" rel="noopener noreferrer" class="brief__link tabbable">mgpu.ru</a>
+        </article>
+      </div>
+    </section>
+    <section class="more info">
+      <h2 class="section-title">More info about me</h2>
+      <div class="section__wrapper text">
+        <p class="section-text">
+          I entered the&nbsp;information technology sector in&nbsp;2017, and since then web development has&nbsp;become my&nbsp;most
+          favourite but&nbsp;demanding hobby. When I am&nbsp;not&nbsp;working, I am&nbsp;spending time gaining knowledge of&nbsp;programming
+          and&nbsp;development &mdash; learning new skills, trying out&nbsp;various tools, working on&nbsp;<a href="https://github.com/jean-1314/barefood-back" target="_blank" class="tabbable">pet</a>
+          or&nbsp;<a href="https://sch-int.ru/" target="_blank" class="tabbable">community</a> projects.
+        </p>
+        <p class="section-text">
+          I enjoy spending time with my&nbsp;family and friends, fond of&nbsp;travelling, discovering new places, and&nbsp;meeting
+          new people. I am&nbsp;an&nbsp;avid reader (join me on&nbsp;<a href="https://www.goodreads.com/user/show/27014260-ivan" target="_blank" class="tabbable">Goodreads</a>)
+          and a&nbsp;keen video- and&nbsp;board gamer.
+        </p>
+        <p class="section-text">
+          I highly value sincerity, openness, trust, kindness, and humanity. Reasonably moderate and&nbsp;tolerant,
+          I esteem diversity, maintain eco-friendly and&nbsp;sustainable lifestyle, donate to&nbsp;charity,
+          thus contributing to&nbsp;make the world a&nbsp;better place for us and our&nbsp;children.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <p class="main-footer__text">&copy; Ivan Savitsky</p>
+    <p class="main-footer__text">Page designed by <a href="#" class="tabbable">James Grant</a>, coded from scratch by me
+    </p>
+    <p class="main-footer__text">Icons made by
+      <a
+        class="tabbable"
+        href="https://www.flaticon.com/authors/pixel-perfect"
+        target="_blank"
+        title="Pixel perfect"
+        rel="noopener noreferrer">
+        Pixel Perfect
+      </a>
+      and
+      <a class="tabbable" href="https://www.freepik.com" title="Freepik" target="_blank"
+         rel="noopener noreferrer">
+        Freepik
+      </a>
+      from
+      <a href="https://www.flaticon.com/" class="tabbable"
+         title="Flaticon" target="_blank"
+         rel="noopener noreferrer">
+        www.flaticon.com
+      </a>
+    </p>
+    <button type="button" class="theme-toggle tabbable">Change theme</button>
+  </footer>
+</div>
+<script defer src="js/script.min.js"></script>
+</body>
+</html>
